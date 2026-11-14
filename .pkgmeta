@@ -1,6 +1,7 @@
 package-as: Slady
 
 ignore:
+  - media
   - README.md
   - CHANGELOG.md
   - .github

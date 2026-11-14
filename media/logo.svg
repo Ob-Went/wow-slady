@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="parch" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#f2dfb0"/><stop offset="0.65" stop-color="#d9b97c"/><stop offset="1" stop-color="#9c7440"/></radialGradient>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%"><stop offset="0" stop-color="#2e2318"/><stop offset="1" stop-color="#120d08"/></radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1b8"/><stop offset="0.5" stop-color="#f2c14e"/><stop offset="1" stop-color="#a8701c"/></linearGradient>
+    <radialGradient id="pinIn" cx="40%" cy="35%" r="70%"><stop offset="0" stop-color="#3a3026"/><stop offset="1" stop-color="#14100b"/></radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="5" flood-color="#000" flood-opacity="0.55"/></filter>
+  </defs>
+  <rect width="512" height="512" rx="64" fill="url(#bg)"/>
+  <rect x="10" y="10" width="492" height="492" rx="56" fill="none" stroke="#7a5a2a" stroke-width="4"/>
+  <path d="M58 70 L120 58 L170 66 L240 54 L300 64 L372 52 L452 66 L460 130 L450 200 L462 270 L452 330 L456 380 L398 392 L330 384 L262 396 L190 386 L120 394 L56 384 L64 320 L52 250 L62 180 L50 120 Z" fill="url(#parch)" filter="url(#shadow)"/>
+  <path d="M70 300 C110 270 140 300 170 280 S230 230 210 190 S240 120 300 130 S380 110 400 160 S430 230 470 240" fill="none" stroke="#8a6436" stroke-width="3" opacity="0.35"/>
+  <g transform="translate(256 222)" filter="url(#shadow)">
+    <circle r="122" fill="#e0704d"/>
+    <circle r="106" fill="url(#pinIn)"/>
+    
+    <g fill="#e8c48a">
+      <g transform="translate(-40 40) rotate(-20)"><ellipse rx="15" ry="22"/><circle cx="-10" cy="-30" r="6"/><circle cx="0" cy="-34" r="6"/><circle cx="10" cy="-30" r="6"/></g>
+      <g transform="translate(6 -4) rotate(15)"><ellipse rx="15" ry="22"/><circle cx="-10" cy="-30" r="6"/><circle cx="0" cy="-34" r="6"/><circle cx="10" cy="-30" r="6"/></g>
+      <g transform="translate(-6 -64) rotate(-10)" opacity="0.75"><ellipse rx="13" ry="19"/><circle cx="-9" cy="-26" r="5"/><circle cx="0" cy="-30" r="5"/><circle cx="9" cy="-26" r="5"/></g>
+    </g>
+    <path d="M-80 80 C-40 70 -60 30 -20 20 S30 -10 20 -50 S50 -90 70 -84" fill="none" stroke="#e0704d" stroke-width="5" stroke-dasharray="2 12" stroke-linecap="round"/>
+  </g>
+  <text x="256" y="462" text-anchor="middle" font-family="DejaVu Serif" font-weight="bold" font-size="66" letter-spacing="4" fill="url(#gold)" stroke="#2a1a08" stroke-width="3" paint-order="stroke">SLADY</text>
+</svg>

@@ -1,3 +1,5 @@
+<p align="center"><img src="media/logo.png" width="200" alt="Slady"></p>
+
 # Slady
 
 **World of Warcraft: Forever** addon (1.60.x, interface 16001) by **Ob-Went**.
