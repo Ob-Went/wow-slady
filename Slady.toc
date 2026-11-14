@@ -1,0 +1,12 @@
+## Interface: 16001
+## Title: Slady
+## Notes: Rysuje na mapie sciezki, ktorymi przeszedles. / Draws the paths you walked on the world map.
+## Author: SGlinka7
+## Version: 1.0.0
+## SavedVariables: SladyDB
+## IconTexture: Interface\Icons\INV_Boots_05
+
+Locale.lua
+Core.lua
+Main.lua
+Pins.xml
