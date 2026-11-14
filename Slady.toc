@@ -2,7 +2,7 @@
 ## Title: Slady
 ## Notes: Rysuje na mapie sciezki, ktorymi przeszedles. / Draws the paths you walked on the world map.
 ## Author: SGlinka7
-## Version: 1.0.0
+## Version: @project-version@
 ## SavedVariables: SladyDB
 ## IconTexture: Interface\Icons\INV_Boots_05
 
